@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(196, 245, 247);
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Anton';
+}
+p {d
+    color: rgb(111, 72, 72);
+}
+a:link{
+    text-decoration: none;
+    color :rgb(0, 0, 0) ;
+}
+a:visited{
+    text-decoration: none;
+    color: #686fd2;
+
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 239, 60);
+    font-weight: bold;
+}
+
+.formatheader {
+     font-size: larger;
+}
