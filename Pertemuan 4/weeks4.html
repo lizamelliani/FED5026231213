@@ -1,0 +1,98 @@
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Oke letsgo</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .sidebar {
+            height: 100vh;
+            background-color: #1E3A5F;
+            color: white;
+            padding-top: 20px;
+            position: fixed;
+        }
+        .sidebar a {
+            color: white;
+            padding: 10px;
+            display: block;
+            text-decoration: none;
+        }
+        .sidebar a:hover {
+            background-color: #1a252f;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <nav class="col-md-3 col-lg-2 d-none d-md-block sidebar">
+            <div class="text-center">
+                <img src="https://via.placeholder.com/80" class="rounded-circle mb-2" alt="User">
+                <p>User</p>
+                <p>lizamel@gmail.com</p>
+            </div>
+            <a href="#">Home Page</a>
+            <a href="#">NIKI ZEPANYA</a>
+            <a href="#">Settings</a>
+            <a href="#" class="text-danger">Log Out</a>
+        </nav>
+
+        <main class="col-md-9 ml-sm-auto col-lg-10 px-4">
+            <h2 class="mt-4">Pengajuan Kontrak Magang</h2>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6 text-center">
+                            <img src="https://i.pinimg.com/736x/8d/a4/9a/8da49a25c6126e44e28e4b16f3891afc.jpg" class="rounded-circle mb-2" alt="Foto">
+                            <h4>Liza Amelliani</h4>
+                            <p>Pastry Shop Owner</p>
+                            <p><strong>20</strong> Tahun Pengalaman</p>
+                            <p>⭐ 5.0 Rating</p>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h5>Form Pengajuan Kontrak Magang</h5>
+                            <form>
+                                <div class="form-group">
+                                    <label>Nama Pengaju</label>
+                                    <input type="text" class="form-control" placeholder="Masukkan nama">
+                                </div>
+                                <div class="form-group">
+                                    <label>Alamat Pengaju</label>
+                                    <input type="text" class="form-control" placeholder="Masukkan alamat">
+                                </div>
+                                <div class="form-group">
+                                    <label>Penempatan Kerja</label>
+                                    <input type="text" class="form-control" value="Surabaya" readonly>
+                                </div>
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input">
+                                    <label class="form-check-label">Ajukan Penempatan di Luar "Domisili Mana??" </label>
+                                </div>
+                                <div class="form-group">
+                                    <label>Rencana Masa Kontrak</label>
+                                    <select class="form-control">
+                                        <option>1 bulan</option>
+                                        <option>3 bulan</option>
+                                        <option>6 bulan</option>
+                                        <option>1 tahun</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn btn-primary btn-block">Ajukan Kontrak</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
